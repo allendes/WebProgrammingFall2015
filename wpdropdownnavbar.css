@@ -1,0 +1,43 @@
+body {
+background-color: red;
+}
+
+#navbar {
+margin: 0;
+padding: .9em 0 0 0;
+   background: #000000; 
+   text-align: center;
+   height: 30px;
+}
+
+#navbar ul {
+margin: 0;
+padding: 0;
+}
+
+#navbar li {
+list-style: none;
+float: left;
+position: relative;
+}
+
+#navbar ul li a {
+text-align: center;
+text-decoration: none;
+width: 100px;
+height: 30px;
+display: block;
+color: blue;
+
+background: #000000;
+}
+
+#navbar ul ul {
+position: absolute;
+display: none;
+}
+
+#navbar ul li:hover ul {
+display: block;
+}
+
